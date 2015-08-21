@@ -9,7 +9,7 @@
 
 ## To Read
 
-  - For beginners:
+  - [1.1](#1.1) <a name='1.1'></a> For beginners:
     - [What is MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
     - [Dave's guide to Mithril.js](http://ratfactor.com/daves-guide-to-mithril-js?/shire)
     - [A Tutorial Introduction (part 1)](http://gilbert.ghost.io/mithril-js-tutorial-1/)
@@ -17,14 +17,16 @@
     - [Getting Started](https://lhorie.github.io/mithril/getting-started.html)
     - [Introductory Slideshow (in Japanese, but Mithril code clear)](http://www.slideshare.net/ShoyoKyo/js-framework-mithril)
     - [FAQ](https://github.com/lhorie/mithril.js/wiki/FAQ)
-  - [Keeping views declarative](http://lhorie.github.io/mithril-blog/getting-over-a-fear-of-turing-complete-templates.html)
-  - Integrating with other libraries:
+  - [1.2](#1.2) <a name='1.2'></a> [Keeping views declarative](http://lhorie.github.io/mithril-blog/getting-over-a-fear-of-turing-complete-templates.html)
+  - [1.3](#1.3) <a name='1.3'></a> Integrating with other libraries:
     - [JQuery Select2 Example](http://mithril.js.org/integration.html)
     - [JQuert Modal Example](https://gist.github.com/lhorie/07c61012aaa2f196c9d4)
 
+**[⬆ back to top](#table-of-contents)**
+
 ## Basic Rules
 
-  - Use ternary operators instead of if statements whenever possible.
+  - [2.1](#2.1) <a name='2.1'></a> Use ternary operators instead of if statements whenever possible.
 
     ```javascript
     // bad
@@ -42,7 +44,7 @@
        someCondition ? m("div", "widget here") : ""
     ])
     ```
-  - Use Array.prototype.map() instead of loops for lists.
+  - [2.2](#2.2) <a name='2.2'></a> Use `Array.prototype.map()` instead of loops for lists.
 
     ```javascript
     // bad
